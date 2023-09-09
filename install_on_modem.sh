@@ -17,7 +17,7 @@ esac
 
 # Download
 cd /tmp
-wget https://github.com/aesthernr/quectel-rgmii-simpleadmin/archive/refs/heads/main.zip
+wget https://github.com/rbflurry/quectel-rgmii-simpleadmin/archive/refs/heads/main.zip
 
 # Unzip
 unzip main.zip
