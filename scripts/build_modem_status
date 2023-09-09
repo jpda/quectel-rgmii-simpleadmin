@@ -11,5 +11,5 @@ while true; do
     	      /usrdata/simpleadmin/scripts/modemstatus_parse.sh
         fi
     fi
-    sleep 30  # Add a sleep to avoid CPU overload
+    sleep 25  # Add a sleep to avoid CPU overload
 done
