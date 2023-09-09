@@ -8,10 +8,8 @@ while true; do
         # Parse
         if [ -f /tmp/modemstatus.txt ]
         then
-    	/usrdata/simpleadmin/scripts/modemstatus_parse.sh
+    	      /usrdata/simpleadmin/scripts/modemstatus_parse.sh
         fi
-    else
-        # echo "Failed to Run Script"
     fi
     sleep 30  # Add a sleep to avoid CPU overload
 done
