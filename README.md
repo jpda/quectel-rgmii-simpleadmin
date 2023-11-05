@@ -18,7 +18,7 @@ If you are able to test on other modems and get it working, feel free to PR.
 ## Installation Automated
 Script will do everything but setup Nate's at_telnet_daemon
 ```bash
-adb shell wget -P /tmp https://raw.githubusercontent.com/iamromulsn/quectel-rgmii-simpleadmin/main/install_on_modem.sh
+adb shell wget -P /tmp https://raw.githubusercontent.com/iamromulan/quectel-rgmii-simpleadmin/main/install_on_modem.sh
 adb shell chmod +x /tmp/install_on_modem.sh
 adb shell sh /tmp/install_on_modem.sh
 ```
